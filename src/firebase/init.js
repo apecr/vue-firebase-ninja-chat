@@ -12,4 +12,11 @@ const config = {
 const firebaseApp = firebase.initializeApp(config);
 firebaseApp.firestore().settings({timestampsInSnapshots: true});
 
-export default firebaseApp.firestore();
+const db = firebaseApp.firestore();
+const messaging = firebaseApp.messaging();
+
+// export default firebaseApp.firestore();
+export {
+  db,
+  messaging
+};
