@@ -69,5 +69,5 @@ i  Writing project information to .firebaserc...
 ✔  Firebase initialization complete!
 ```
 
-After we build the application: `npm run build`. And latest deploy the app with `firebase deploy`;
+After we build the application: `npm run build`. And latest deploy the app with `firebase deploy`.
 
